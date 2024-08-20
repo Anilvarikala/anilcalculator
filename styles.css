@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+button{
+    width:70px;
+    height:45px;
+    border:1px solid rgb(158, 155, 155);
+    box-shadow: 0 0  10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 9px;
+    margin:4px;
+}
+body{
+    text-align: center;
+    background-color: rgb(168, 190, 199);
+    /* background-color:rgb(123, 108, 81); */
+}
+.r1{
+    height:35px;
+}
+input{
+    /* padding-right:10px; */
+    height:50px;
+    width:304px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border:1px solid #fff;
+    padding-right:3px;
+    text-align: end;
+    font-size: 1.2rem;
+}
+#heading{
+    position: absolute;
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.5rem;
+    top:28px;
+    left:44vw;
+    margin: auto;
+}
+
+.box{
+    margin:auto;
+    margin-top:100px;
+    width:350px;
+    /* background-color: rgb(100, 237, 200);
+    opacity: 0.5; */
+     background-color: lightgrey; 
+    opacity: 0.6;
+    border-radius: 10px;
+    height:410px;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.2rem;
+}
+.operator{
+    color:black;
+    font-size: large;
+    font-weight: bolder;
+    background-color:rgb(143, 222, 23);  
+}
+.number{
+    background-color: white;
+    box-shadow: 0 0 0 10 rgba(0,0,0,0.1);
+}
+.shadow{
+   
+    background-color: rgb(34, 149, 111);
+}
+.AC{
+    width:150px;
+}
+/* .operator{
+    background-color: aquamarine;
+} */
+ @media screen and (min-width:350px) and (max-width:400px){
+    html{
+        margin-top:10px;
+    }
+    button{
+        width:60px;
+    }
+    .box{
+      width:300px;
+    }
+    input{
+        width:280px;
+    }
+    .AC{
+        width:130px;
+    }
+ }
+
+ @media screen and (min-width:220px) and (max-width:349px){
+    html{
+        margin-top:5px;
+    }
+    button{
+        width:45px;
+    }
+    .box{
+      width:280px;
+    }
+    input{
+        width:240px;
+    }
+    .AC{
+        width:100px
+    }
+ }
+
+ @media screen and(min-width:800px) and (max-width:1543px){
+   
+     #heading{
+        left:30vw;
+        position: absolute;
+     }
+ }
